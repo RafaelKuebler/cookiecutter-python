@@ -1,12 +1,16 @@
+# VIRTUAL ENVIRONMENT
 .venv
-.doit.db.db
-.direnv/
-.pytest_cache
 
+# TOOLING
+.pytest_cache
+.mypy_cache
+.ruff_cache
+
+# PYTHON
 __pycache__/
 *.py[cod]
 *$py.class
 
+# TESTING
 .coverage
 coverage.xml
-.pytest_cache/

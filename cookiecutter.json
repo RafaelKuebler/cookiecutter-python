@@ -1,11 +1,16 @@
 {
-    "full_name": "Rafael Kübler da Silva",
-    "email": "rafael_kuebler@yahoo.com",
-    "project_name": "Python Boilerplate",
-    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
-    "project_short_description": "Python Boilerplate contains all the boilerplate you need to create a Python package.",
-    "version": "0.1.0",
-    "command_line_interface": ["Click", "Argparse", "No command-line interface"],
-    "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"],
-    "explanatory_comments": "y"
+  "full_name": "Rafael Kübler da Silva",
+  "email": "rafael_kuebler@yahoo.com",
+  "project_name": "Python Boilerplate",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "Python Boilerplate contains all the boilerplate you need to create a Python package.",
+  "version": "0.1.0",
+  "open_source_license": [
+    "MIT license",
+    "BSD license",
+    "ISC license",
+    "Apache Software License 2.0",
+    "GNU General Public License v3",
+    "Not open source"
+  ]
 }
