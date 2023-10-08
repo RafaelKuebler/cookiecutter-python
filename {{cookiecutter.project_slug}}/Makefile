@@ -12,7 +12,8 @@ setup: # Setup dev environment.
 	python3 -m venv .venv && \
 	. .venv/bin/activate && \
 	pip install -r requirements.txt && \
-	pip install -r requirements-dev.txt --use-pep517
+	pip install -r requirements-dev.txt --use-pep517 && \
+	pre-commit install
 
 .PHONY: test
 test: # Run all tests.
